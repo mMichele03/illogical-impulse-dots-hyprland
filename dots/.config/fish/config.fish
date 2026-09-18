@@ -31,3 +31,6 @@ if status is-interactive
         alias ssh 'kitten ssh'
     end
 end
+
+# Set agent vars
+set -gx SSH_AUTH_SOCK /home/mmic/.bitwarden-ssh-agent.sock
